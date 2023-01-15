@@ -744,3 +744,205 @@ footer .footer-first ul li:nth-child(2){
         border-radius:5px;
     }
     /* banner section:end */
+
+    /* product inner section:start */
+    .main-box{
+         
+        height:500px;
+        width:100%;
+        margin-top:50px;
+
+
+    }
+    .main-box .image-block{
+   
+    height:500px;
+    width:40%;
+    }
+    .main-box .image-block img{
+        height:500px;
+        width:100%;
+        
+
+    }
+    .main-box .detial-block{
+        
+        width:60%;
+
+
+    }
+    .main-box .detial-block li{
+        margin-top:15px;
+        margin-left:40px;
+    }
+    .main-box .detial-block li:nth-child(2){
+        font-size:25px;
+    }
+    .main-box .detial-block li:nth-child(3){
+        font-size:20px;
+    }
+
+    .main-box .detial-block li:nth-child(4) select{
+        height:40px;
+        width:200px;
+        border-radius:4px;
+        outline:none;
+        border-color:rgb(0, 0,0,0.06);
+        box-shadow:0px 5px 15px rgb(0, 0,0,0.06);
+        font-family: 'IBM Plex Mono', monospace;
+        font-family: 'Signika Negative', sans-serif;
+        font-family: 'Space Grotesk', sans-serif;
+        font-size:20px;
+    }
+    .main-box .detial-block li:nth-child(5) select{
+        height:40px;
+        width:200px;
+        border-radius:4px;
+        outline:none;
+        border-color:rgb(0, 0,0,0.06);
+        box-shadow:0px 5px 15px rgb(0, 0,0,0.06);
+        font-family: 'IBM Plex Mono', monospace;
+        font-family: 'Signika Negative', sans-serif;
+        font-family: 'Space Grotesk', sans-serif;
+        font-size:15px;
+    }
+    .main-box .detial-block li:nth-child(6) input{
+        height:40px;
+        width:60px;
+        border-radius:4px;
+        outline:none;
+        border-color:rgb(0, 0,0,0.06);
+        box-shadow:0px 5px 15px rgb(0, 0,0,0.06);
+        text-align:center;
+
+    }
+    .main-box .detial-block li:nth-child(6) button{
+        height:40px;
+        margin-left:15px;
+        background-color:#3e7cef;
+        color:white;
+        width:100px;
+        border-radius:4px;
+        outline:none;
+        border-color:rgb(0, 0,0,0.06);
+        box-shadow:0px 5px 15px rgb(0, 0,0,0.06);
+        text-align:center;
+        font-family: 'IBM Plex Mono', monospace;
+        font-family: 'Signika Negative', sans-serif;
+        font-family: 'Space Grotesk', sans-serif;
+        font-size:15px;
+    }
+    .main-box .detial-block li:nth-child(7) button:hover{
+        color:rgb(153, 145, 145);
+        transition:1s;
+         background-color: #91b6f9;
+    }
+    .main-box .detial-block li:nth-child(7) button{
+        height:40px;
+        margin-left:15px;
+        background-color:#3e7cef;
+        color:white;
+        width:100px;
+        border-radius:4px;
+        outline:none;
+        border-color:rgb(0, 0,0,0.06);
+        box-shadow:0px 5px 15px rgb(0, 0,0,0.06);
+        text-align:center;
+        font-family: 'IBM Plex Mono', monospace;
+        font-family: 'Signika Negative', sans-serif;
+        font-family: 'Space Grotesk', sans-serif;
+        font-size:15px;
+    }
+    .main-box .detial-block li:nth-child(6) button:hover{
+        color:rgb(153, 145, 145);
+        transition:1s;
+        background-color: #91b6f9;
+    }
+    
+
+    /* product inner section:End */
+    /* list of all product :start */
+    .breadcrum{
+        background-color:#f7f7f7;
+        height:200px;
+        width:100%;
+    }
+    .product-list-main-box{
+        background-color: yellow;
+         height:auto;
+        width:100%;
+        margin-top:100px;
+
+    }
+    .filter-list{
+        background-color: #3577f0;
+        height:1000px;
+        width:25%;
+    }
+    .product-list{
+        height:auto;
+        width:75%;
+    }
+    .filter-sorted{
+        height:100px;
+        width:100%;
+        position: relative;
+    }
+    .box-list-all{
+        height:auto;
+        width:100%;
+    }
+    .component{
+        width:50%;
+        position: absolute;
+        right:0px;
+        line-height:100px;
+    }
+    .component select{
+        height:60px;
+        width:250px;
+        text-align:center;
+        border-radius:4px;
+        outline:none;
+        border-color:rgb(0, 0,0,0.06);
+        box-shadow:0px 5px 15px rgb(0, 0,0,0.06);
+        font-family: 'IBM Plex Mono', monospace;
+        font-family: 'Signika Negative', sans-serif;
+        font-family: 'Space Grotesk', sans-serif;
+        font-size:20px;
+    }
+    .box-list-all{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:space-between;
+    }
+    .load-more{
+       
+        height:100px;
+        width:100%;
+
+    }
+    #load-more-btn{
+        height:70px;
+        width:300px;
+        border-radius:4px;
+        outline:none;
+        color: #CBD3D9;
+        background-color:#f7f7f7;
+        border-color:rgb(0, 0,0,0.06);
+        box-shadow:0px 5px 15px rgb(0, 0,0,0.06);
+        font-family: 'IBM Plex Mono', monospace;
+        font-family: 'Signika Negative', sans-serif;
+        font-family: 'Space Grotesk', sans-serif;
+        font-size:20px;
+        margin:20px 0px 0px 500px;
+
+    }
+    #load-more-btn:hover{
+        height:75px;
+        width:305px;
+        color:black;
+        transition:1s;
+         
+    }
+    /* list of all product :End */
