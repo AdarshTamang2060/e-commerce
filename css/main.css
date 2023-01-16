@@ -867,18 +867,61 @@ footer .footer-first ul li:nth-child(2){
         height:200px;
         width:100%;
     }
+    .breadcrum ul{
+        margin-left:120px;
+        width:50%;
+        height:150px;
+        line-height:80px;
+      
+         
+    }
+    .breadcrum ul li:nth-child(2){
+        font-size:40px;
+        font-weight: bold;
+    }
     .product-list-main-box{
-        background-color: yellow;
+        /* background-color: yellow; */
          height:auto;
         width:100%;
         margin-top:100px;
 
     }
     .filter-list{
-        background-color: #3577f0;
+        /* background-color: #3577f0; */
         height:1000px;
         width:25%;
     }
+    .filter-list ul{
+        /* background-color:red; */
+         
+    }
+    .filter-list ul li{
+        margin-top:5px;
+        font-size:20px;
+        font-weight:lighter;
+
+
+    }
+    #filter-price{
+        width:300px;
+        margin:10px;
+    }
+    .filter-list ul li input{
+         height:20px;
+         width:20px;
+         outline:none;
+         border-color:rgb(0, 0,0,0.06);
+         box-shadow:0px 5px 15px rgb(0, 0,0,0.06);
+         
+
+    }
+    .filter-list ul li:nth-child(1){
+        font-size:30px;
+        text-align: center;
+        /* background-color: antiquewhite; */
+    }
+
+
     .product-list{
         height:auto;
         width:75%;
