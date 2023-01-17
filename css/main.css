@@ -989,3 +989,104 @@ footer .footer-first ul li:nth-child(2){
          
     }
     /* list of all product :End */
+
+    /* contact form section:start */
+    .contact-form{
+        /* background-color: red; */
+        height:700px;
+        width:65%;
+    }
+    .text-contact{
+       
+        height:700px;
+        width:35%;
+    }
+    .text-contact ul{
+        color: #797e83;
+        margin:30px 0px 0px 30px;
+    }
+    .text-contact ul li:nth-child(1){
+        font-size:30px;
+    }
+    .text-contact ul li:nth-child(2){
+        
+         margin-top:25px;
+    }
+    .text-contact ul li:nth-child(3){
+        margin-top:25px;
+   }
+   .text-contact ul li:nth-child(5){
+    margin-top:20px;
+    font-size:30px;
+    }   
+    .text-contact ul li:nth-child(6){
+        margin-top:30px;
+        
+    }
+     
+    .text-contact ul li:nth-child(7){
+        margin-top:30px;
+        font-size:30px;
+        
+    }
+    .text-contact ul li:nth-child(8){
+        margin-top:30px;
+        
+    }
+
+
+    .contact-form .first-row{
+        margin-top:30px;
+       
+        height:100px;
+        width:100%;
+
+    }
+    .contact-form .flex-box{
+        justify-content:space-between;
+
+    }
+    .first-row input{
+        height:60px;
+        width:270px;
+        outline:none;
+        border-radius:5px;
+        font-family: 'IBM Plex Mono', monospace;
+        font-family: 'Signika Negative', sans-serif;
+        font-family: 'Space Grotesk', sans-serif;
+        border:2px solid black;
+        border-color:rgb(0, 0,0,0.06);
+        text-indent:10px;
+
+    }
+    .second-row textarea{
+        outline:none;
+        border-radius:5px;
+        font-family: 'IBM Plex Mono', monospace;
+        font-family: 'Signika Negative', sans-serif;
+        font-family: 'Space Grotesk', sans-serif;
+        border:2px solid black;
+        border-color:rgb(0, 0,0,0.06);
+        
+    }
+    .third-row{
+        height:50px;
+        margin-top:15px;
+
+    }
+    .third-row button{
+        height:70px;
+        width:200px;
+        border-radius:5px;
+        outline:none;
+        color: #fff;
+        background-color:#3577f0;
+        border-color:rgb(0, 0,0,0.06);
+        box-shadow:0px 5px 15px rgb(0, 0,0,0.06);
+        font-family: 'IBM Plex Mono', monospace;
+        font-family: 'Signika Negative', sans-serif;
+        font-family: 'Space Grotesk', sans-serif;
+        font-size:20px;
+    }
+
+     /* contact form section:End */

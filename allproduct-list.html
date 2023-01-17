@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>List OF Product</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     
@@ -14,7 +14,7 @@
     <header>
         <div class="container">
             <div class="flex-box"> 
-               <div class="logo"><img src="images/logo.png" valign></div>
+               <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
                <div class="search-lang">
                 <li class="search-parent"> <i class="fa-sharp fa-solid fa-magnifying-glass"></i><input type="text" id="search-box" placeholder="What are you looking for..."></li>
                 <li>
@@ -38,36 +38,45 @@
     <!-- header:end -->
     <!-- main section:start -->
     <main>
+        <!-- breadcrumb sectionL:start -->
+        <section> 
         <div class="breadcrum">
             <ul>
                 <li><a href="index.html">Home</a>/<a href="#">My Account</a></li>
                 <li>Explore All Products</li>
             </ul>
-        </div>  
+        </div> 
+        </section>
+         <!-- breadcrumb sectionL:end --> 
+         <!-- main content:start -->
+        <section>
         <div class="container"> 
             <div class="product-list-main-box">
-                <div class="flex-box">
-
-                
+                <div class="flex-box">                
                     <div class="filter-list">
                         <ul>
                             <li><label>Brand</label></li>
                             <li> 
                                 <input type="checkbox" id="" value="">
-                                <label for="">brand</label><br>
+                                <label for="">brand 1</label><br>
                             </li>
                             <li> 
                                 <input type="checkbox" id="" value="">
-                                <label for="">brand</label><br>
+                                <label for="">brand 2</label><br>
                             </li>
                             <li> 
                                 <input type="checkbox" id="" value="">
-                                <label for="">brand</label><br>
+                                <label for="">brand 3</label><br>
                             </li>
                             <li> 
                                 <input type="checkbox" id="" value="">
-                                <label for="">brand</label><br>
+                                <label for="">brand 4</label><br>
                             </li>
+                            <li> 
+                                <input type="checkbox" id="" value="">
+                                <label for="">brand 5</label><br>
+                            </li>
+                            
                          
 
                         </ul>
@@ -75,20 +84,33 @@
                             <li><label>Color</label></li>
                             <li> 
                                 <input type="checkbox" id="" value="">
-                                <label for="">brand</label><br>
+                                <label for="">Black</label><br>
                             </li>
                             <li> 
                                 <input type="checkbox" id="" value="">
-                                <label for="">brand</label><br>
+                                <label for="">White</label><br>
                             </li>
                             <li> 
                                 <input type="checkbox" id="" value="">
-                                <label for="">brand</label><br>
+                                <label for="">Orange</label><br>
                             </li>
                             <li> 
                                 <input type="checkbox" id="" value="">
-                                <label for="">brand</label><br>
+                                <label for="">red</label><br>
                             </li>
+                            <li> 
+                                <input type="checkbox" id="" value="">
+                                <label for="">Yellow</label><br>
+                            </li>
+                            <li> 
+                                <input type="checkbox" id="" value="">
+                                <label for="">Gray</label><br>
+                            </li>
+                            <li> 
+                                <input type="checkbox" id="" value="">
+                                <label for="">Green</label><br>
+                            </li>
+
                          
 
                         </ul>
@@ -96,20 +118,33 @@
                             <li><label>Size</label></li>
                             <li> 
                                 <input type="checkbox" id="" value="">
-                                <label for="">brand</label><br>
+                                <label for="">S</label><br>
                             </li>
                             <li> 
                                 <input type="checkbox" id="" value="">
-                                <label for="">brand</label><br>
+                                <label for="">M</label><br>
                             </li>
                             <li> 
                                 <input type="checkbox" id="" value="">
-                                <label for="">brand</label><br>
+                                <label for="">L</label><br>
                             </li>
                             <li> 
                                 <input type="checkbox" id="" value="">
-                                <label for="">brand</label><br>
+                                <label for="">XL</label><br>
                             </li>
+                            <li> 
+                                <input type="checkbox" id="" value="">
+                                <label for="">2xl</label><br>
+                            </li>
+                            <li> 
+                                <input type="checkbox" id="" value="">
+                                <label for="">3xl</label><br>
+                            </li>
+                            <li> 
+                                <input type="checkbox" id="" value="">
+                                <label for="">4xl</label><br>
+                            </li>
+                            
                          
 
                         </ul>
@@ -117,7 +152,30 @@
                             <li>
                                 <label>price</label>
                             </li>
-                            <li><input type="range" id="filter-price"></li>
+                            <li><input type="range" id="filter-price"><br>Price:<span>$20</span></li>
+                        </ul>
+                        <ul>
+                            <li><label>Service</label></li>
+                            <li> 
+                                <input type="checkbox" id="" value="">
+                                <label for="">Cash On Delivery</label><br>
+                            </li>
+                            <li> 
+                                <input type="checkbox" id="" value="">
+                                <label for="">Fulfilled By E-Trade</label><br>
+                            </li>
+                            <li> 
+                                <input type="checkbox" id="" value="">
+                                <label for="">Free Shipping</label><br>
+                            </li>
+                            <li> 
+                                <input type="checkbox" id="" value="">
+                                <label for="">Online Payment</label><br>
+                            </li>
+                            
+                            
+                         
+
                         </ul>
 
                     </div>
@@ -237,6 +295,8 @@
 
             </div>     
         </div>
+        </section>
+        <!-- main content:end -->
 
     </main>
     <!-- main section:End -->

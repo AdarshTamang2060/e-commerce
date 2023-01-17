@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detail of product</title>
+    <title>Contact Page</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     
@@ -38,53 +38,81 @@
     <!-- header:end -->
     <!-- main section:start -->
     <main>
-        <div class="container">
-            <div class="main-box">
+        <!-- breadcrumb section:start-->
+        <section>
+            <div class="breadcrum">
+                <ul>
+                    <li><a href="index.html">Home</a>/<a href="#">Contact</a></li>
+                    <li>Contact With US</li>
+                </ul>
+            </div> 
+        </section>
+          <!-- breadcrumb section:end-->
+        <!-- main content:start -->
+        <section>
+            <div class="container"> 
                 <div class="flex-box">
-                    <div class="image-block">
-                        <img src="images/product-big-01.png">
+                    <div class="contact-form">
+                        <h1>We would love to hear from you.</h1>
+                        <p>If you’ve got great products your making or looking to work with us then drop us a line.</p>
+                        <div class="first-row flex-box">
+                            <div class="first-col">
+                                <label for="name">Name</label><br>
+                                <input type="text" id="name">
+                            </div>
+                            <div class="second-col">
+                                <label for="phone">Phone</label><br>
+                                <input type="text" id="phone">
+                            </div>
+                            <div class="third-col">
+                                <label for="email">Email</label><br>
+                                <input type="text" id="email">
+                            </div>
+                        </div>
+                        <div class="second-row">
+                            <label for="phone">Message</label><br>
+                            <textarea rows="10" cols="101">
+
+                            </textarea>
+                        </div>
+                        <div class="third-row">
+                            <button>Send Message</button>
+                        </div>
+                    </div>
+                    <div class="text-contact">
+                        <ul>
+                            <li>Our Store</li>
+                            <li>8212 E. Glen Creek Street Orchard Park, NY 14127, United States of America</li>
+                            <li>Phone: +123 456 7890</li>
+                            <li>Email: Hello@etrade.com</li>
+                            <li>Careers</li>
+                            <li>Instead of buying six things, one that you really like.</li>
+                            <li>Opening Hours:</li>
+                            <li>Monday to Saturday: 9am - 10pm</li>
+                            <li>Sundays: 10am - 6pm</li>
+                        </ul>
 
                     </div>
-                    <div class="detial-block">
-                        <li><a href="index.html">Home</a>/<a href="#">HeadPhone</a></li>
-                        <li>Stylelis Headphone</li>
-                        <li>$234.00</li>
-                        <li><select>
-                            <option selected>Select size</option>
-                            <option>SM</option>
-                            <option>MD</option>
-                            <option>LG</option>
-                            <option>XL</option>
-                            <option>2XL</option>
-                        </select></li>
-                        <li><select>
-                            <option selected>Choose Color</option>
-                            <option>Black</option>
-                            <option>White</option>
-                            <option>Pink</option>
-                            <option>Yellow</option>
-                            <option>Orange</option>
-                        </select></li>
-                        <li><input type="number" value="0" max="10" min="0"><button>add to cart</button></li>
-                        <li><button>buy now</button></li>
-                        <li><h2>Prooduct Detial</h2>
-                             <div>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptate quibusdam vero omnis repellendus delectus ab id quas totam velit.
-                             </div>
-                        </li>
-                    </div>
-
                 </div>
+            </div>
+        </section>
+        <!-- main content:End -->
 
+        <!-- map section:start -->
+        <section>
+            <div class="container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.3408831390366!2d85.32077101501532!3d27.706759482792183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1907e99e0391%3A0xcce47de157f588d3!2sStar%20Mall!5e0!3m2!1sen!2snp!4v1673969994750!5m2!1sen!2snp" width="100%" height="510" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+         <!-- map section:end -->
 
-            </div>            
-        </div>
 
     </main>
     <!-- main section:End -->
+    
 
-     <!-- footer section:start -->
-     <footer>
+    <!-- footer section:start -->
+    <footer>
         <div class="container">
             <div class="footer-first">
                 <div class="flex-box">
