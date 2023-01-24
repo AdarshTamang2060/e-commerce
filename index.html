@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Trade</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     
 </head>
 <body>
+   
     <!-- header:start -->
     <header>
         <div class="container">
@@ -49,20 +51,115 @@
                     <li><a href="contact.html">Contact</a></li>
                 </div>
                 <div class="setting">
-                    <li><i class="fa-solid fa-cart-shopping"></i></li>
+                    <li><i class="fa-sharp fa-solid fa-magnifying-glass"></i></li>
+                    <li><i class="fa-solid fa-cart-shopping" id="open-cart"></i></li>
                     <li><i class="fa-solid fa-user"></i></li>
+                    
                 </div>
             </div>
         </div>
     </nav>
     <!-- navigationbar:End -->
+    <!-- carts Section:start -->
+    <section class="carts-section">
+        <div class="main-box-cart">
+            <div class="main-content">
+                <ul>
+                    <li>
+                        <div class="flex-box">
+                            <div class="text-cart">
+                                Cart review
+                            </div>
+                            <button id="close-cart"><i class="fa-solid fa-xmark"></i></button>
+                        </div>
+                    </li>
+                    <br><br>
+                    <hr>
+                    <li>
+                        <div class="flex-box">
+                            <img src="images/product-1.png">
+                            <diV class="details">
+                                 <div class="ratting"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>&nbsp;(5)</div>
+                                 <div class="title" style="margin-top:5px;">Wireless PS Handler</div>
+                                 <div class="price" style="margin-top:5px;">$134</div>
+                            </diV>
+                            <div class="number-of-item flex-box">
+                                <button><i class="fa-solid fa-minus"></i></button>
+                                <div class="number">3</div>
+                                <button><i class="fa-regular fa-plus"></i></button>
+                            </div>
+                        </div>
+                    </li>
+                    <br><br>
+                    <hr>
+                    <li>
+                        <div class="flex-box">
+                            <img src="images/product-1.png">
+                            <diV class="details">
+                                 <div class="ratting"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>&nbsp;(5)</div>
+                                 <div class="title" style="margin-top:5px;">Wireless PS Handler</div>
+                                 <div class="price" style="margin-top:5px;">$134</div>
+                            </diV>
+                            <div class="number-of-item flex-box">
+                                <button><i class="fa-solid fa-minus"></i></button>
+                                <div class="number">3</div>
+                                <button><i class="fa-regular fa-plus"></i></button>
+                            </div>
+                        </div>
+                    </li>
+                    <br><br>
+                    <hr>
+                    <li>
+                        <div class="flex-box">
+                            <img src="images/product-1.png">
+                            <diV class="details">
+                                 <div class="ratting"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>&nbsp;(5)</div>
+                                 <div class="title" style="margin-top:5px;">Wireless PS Handler</div>
+                                 <div class="price" style="margin-top:5px;">$134</div>
+                            </diV>
+                            <div class="number-of-item flex-box">
+                                <button><i class="fa-solid fa-minus"></i></button>
+                                <div class="number">3</div>
+                                <button><i class="fa-regular fa-plus"></i></button>
+                            </div>
+                        </div>
+                    </li>
+                    <br><br>
+                    <hr>
+                    <li>
+                        <div class="sub-total flex-box">
+                            <div class="title">
+                                Sub-Total
+                            </div>
+                            <div class="price">
+                                $500
+                            </div>
+                        </div>
+
+                    </li>
+                    <li>
+                        <div class="btn-vc flex-box">
+                            <button>View Cart</button>
+                            <button>CheckOut</button>
+
+                        </div>
+
+                    </li>
+                    
+                </ul>
+
+            </div>
+        </div>
+
+    </section>
+      <!-- carts Section:End -->
 
     <!-- main:section:start -->
     <main>
         <!-- hero section:start -->
         <section class="hero-section">
             <div class="container">
-                <div class="flex-box"> 
+                <div class="flex-box box-1"> 
                     <menu>
                         <div class="catagories-list">
                             <ul>
@@ -737,8 +834,11 @@
                                 <li>Delux Brand<br> Watch</li>
                                 <li>Shop Now<i class="fa-solid fa-arrow-right"></i></li>
                             </div>
-                            <div class="product1-logo">
+                            <div class="product1-logo slider fade">
                                 <img src="images\watch.png">
+                            </div>
+                            <div class="product1-logo slider fade">
+                                <img src="images/watch2.png">
                             </div>
                         </div>
                     </div>
@@ -1019,6 +1119,7 @@
      <!-- main:section:End -->
      <!-- footer section:start -->
     <footer>
+
         <div class="container">
             <div class="footer-first">
                 <div class="flex-box">
@@ -1077,8 +1178,9 @@
 
             </div>
         </div>
-
+        
     </footer>
+    <script src="main.js"></script>
     <!-- footer section:End -->
     
 </body>

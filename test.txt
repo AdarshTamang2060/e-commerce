@@ -1,0 +1,345 @@
+ @media only screen and (max-width:1490px) {
+    .container{
+        margin:1px 100px 0 100px;
+        height:auto;
+        /* background-color: #91b6f9; */
+     
+    }
+    header{
+        width:100%;
+        
+    }
+    .logo{
+        height:5rem;
+        width:255px;
+        
+    }
+    .search-lang{
+        /* background-color: aquamarine; */
+        height:5rem;
+       
+        width:80%;
+   
+        
+    }
+    
+    nav{
+        width:100%;
+        
+    }
+    #search-box{
+        outline:none;
+        height:38px;
+        width:690px;
+        border-radius:0px 5px;
+        font-family: 'IBM Plex Mono', monospace;
+        font-family: 'Signika Negative', sans-serif;
+        font-family: 'Space Grotesk', sans-serif;
+        box-shadow:0px 5px 15px rgb(0, 0,0,0.06);
+        border-color:rgb(0, 0,0,0.06);
+        text-indent:50px;
+         
+    }
+    .most-sell-product1{
+        width:60%;
+         
+         
+    }
+    .feature-box{
+        height:200px;
+        width:200px;
+    }
+    .list-of-arrivlas .box-list{
+        height:340px;
+        width:260px;
+        
+        
+    
+         
+    }
+    .list-of-mostsell .box-list{
+        height:250px;
+        width:250px;
+      }
+
+
+}
+@media only screen and (max-width:1390px) {
+    .container{
+        margin:1px 90px 0 90px;
+        height:auto;
+        /* background-color: #91b6f9; */
+     
+    }
+    header{
+        width:100%;
+      
+    }
+    .logo{
+        height:5rem;
+        width:255px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .search-lang{
+        /* background-color: aquamarine; */
+        height:5rem;
+        margin-left:100px;
+        width:70%;    
+    }
+
+    nav{
+        width:100%;
+       
+    }
+    #search-box{
+        
+        height:38px;
+        width:600px;
+         
+         
+    }
+
+
+
+}
+@media only screen and (max-width:1345px) {
+    .container{
+        margin:1px 80px 0 80px;
+        height:auto;
+        /* background-color: #91b6f9; */
+     
+    }
+}
+@media only screen and (max-width:1260px) {
+    .container{
+        margin:1px 100px 0 100px;
+        height:auto;
+        /* background-color: #91b6f9; */
+     
+    }
+    menu{
+        display:none;
+    }
+    #search-box{
+        
+        height:38px;
+        width:500px;
+         
+         
+    }
+    .logo{
+        height:5rem;
+        width:200px;
+        
+    }
+    .search-lang{
+        
+        height:5rem;
+        margin-left:80px;
+        width:80%;
+         
+     
+    }
+    .text-cata{
+        height:3.5rem;
+        width:200px;
+        
+    
+    }
+    .most-sell-product1{
+        width:70%;
+        margin-left:0px;
+        
+         
+         
+    }
+    .most-sell-product2{
+        width:35%;
+         
+         
+    }
+    .feature-box:nth-child(1){
+        display:none;
+    }
+    .list-of-arrivlas .box-list:nth-child(1){
+        display:none;    
+    }
+    .list-of-mostsell .box-list:nth-child(1){
+        display:none;
+    }
+}
+@media only screen and (max-width:1100px) {
+    .container{
+        margin:1px 50px 0 50px;
+    }
+    #search-box{
+        
+        height:38px;
+        width:400px;
+         
+         
+    }
+    .search-lang{
+        /* background-color: aquamarine; */
+        height:5rem;
+        margin-left:80px;
+        width:60%;
+         
+        /* background-color: aquamarine;  */
+    }
+    menu{
+        display:none;
+    }
+    
+    .logo{
+        height:5rem;
+        width:200px;
+        
+    }
+   
+    .text-cata{
+        height:3.5rem;
+        width:200px;
+        
+    
+    }
+    .most-sell-product1{
+        width:70%;
+        margin-left:0px;
+        
+         
+         
+    }
+    .most-sell-product2{
+        width:35%;
+         
+         
+    }
+    .feature-box:nth-child(1){
+        display:none;
+    }
+    .list-of-arrivlas .box-list:nth-child(1){
+        display:none;    
+    }
+    .list-of-mostsell .box-list:nth-child(1){
+        display:none;
+    }
+    footer{
+        font-size:20px;
+
+    }
+    footer .footer-first{
+        height:400px;
+        background-color: red;
+    }
+    footer .footer-first .flex-box{
+        justify-content: space-between;
+    }
+    footer .footer-first ul{
+        width:15%;
+        height:300px;
+    }
+    footer .footer-first ul li{
+        list-style:none;
+        margin-top:15px;
+        font-size:15px;
+    
+    }
+    footer .footer-first ul li img{
+       display:none;
+    }
+    footer .footer-last .first{
+ 
+        width:15%;
+        height:70px;
+        line-height:60px;
+    }
+    footer .footer-last .second{
+      
+        width:60%;
+        text-align:center;
+        line-height:60px;
+        height:70px;
+    
+    }
+    footer .footer-last .third{
+       
+        width:20%;
+        line-height:60px;
+        
+    }
+}
+@media only screen and (max-width:1024px) {
+    .container{
+        margin:1px 50px 0 50px;
+        height:auto;
+        /* background-color: #91b6f9; */
+     
+    }
+    menu{
+        display:none;
+    }
+    header{
+        width:100%;
+    }
+    nav{
+        /* background-color: red; */
+        width:100%;
+    }
+    .nav-design-box{
+        /* background-color: blue; */
+        width:100%;
+    }
+    #search-box{
+        
+        height:38px;
+        width:450px;
+         
+         
+    }
+    .logo{
+        height:5rem;
+        width:200px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: aqua; */
+    }
+    .search-lang{
+        /* background-color: aquamarine; */
+        height:5rem;
+        margin-left:80px;
+        width:670%;
+         
+        /* background-color: aquamarine;  */
+    }
+    .text-cata{
+        height:3.5rem;
+        width:200px;
+        
+    
+    }
+    .most-sell-product1{
+        width:70%;
+        margin-left:0px;
+        
+         
+         
+    }
+    .most-sell-product2{
+        width:35%;    
+    }
+    .feature-box:nth-child(1){
+        display:none;
+    }
+    .list-of-arrivlas .box-list:nth-child(1){
+        display:none;    
+    }
+    .list-of-mostsell .box-list:nth-child(1){
+        display:none;
+    }
+}
+ 
