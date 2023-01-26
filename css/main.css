@@ -171,16 +171,13 @@ main{
     width:40%;
     position:fixed;
     right:-110%;
+     
     top:0px;
     z-index:1;
     box-shadow:0px 5px 15px rgb(0, 0,0,0.06);
     border-color:rgb(0, 0,0,0.06);
     overflow-y:scroll;  
     transition:1s; 
-}
-.main-box-cart.active{
-     right:0px;
-     transition:1s;
 }
 .main-content{
     height:755px;
@@ -1056,14 +1053,11 @@ footer .footer-first ul li:nth-child(2){
 
     }
     .filter-list{
-        /* background-color: #3577f0; */
+        
         height:1000px;
-        width:25%;
+        width:30%;
     }
-    .filter-list ul{
-        /* background-color:red; */
-         
-    }
+   
     .filter-list ul li{
         margin-top:5px;
         font-size:20px;
@@ -1072,8 +1066,9 @@ footer .footer-first ul li:nth-child(2){
 
     }
     #filter-price{
-        width:300px;
+        width:200px;
         margin:10px;
+        
     }
     .filter-list ul li input{
          height:20px;
@@ -1099,13 +1094,16 @@ footer .footer-first ul li:nth-child(2){
         height:100px;
         width:100%;
         position: relative;
+      
     }
     .box-list-all{
         height:auto;
         width:100%;
+        
     }
     .component{
-        width:50%;
+       
+        width:30%;
         position: absolute;
         right:0px;
         line-height:100px;
@@ -1126,7 +1124,8 @@ footer .footer-first ul li:nth-child(2){
     .box-list-all{
         display:flex;
         flex-wrap:wrap;
-        justify-content:space-between;
+        gap:20px;
+        
     }
     .load-more{
        
@@ -1160,6 +1159,7 @@ footer .footer-first ul li:nth-child(2){
     /* list of all product :End */
 
     /* contact form section:start */
+    
     .contact-form{
         /* background-color: red; */
         height:700px;

@@ -41,6 +41,17 @@
         margin-top:20px;
 
     }
+    .filter-list{
+        width:25%;
+    }
+
+    /* .all-product-list-page .product-list-main-box .box-list-all{
+        gap:27px;
+    } */
+
+    
+     
+   
   
    
    
@@ -76,6 +87,108 @@
      menu{
          display:none;
      }
+     /* .main-box-cart{
+         right:0%;
+     }
+     .main-content{
+        height:755px;
+        width:89%;
+        margin:50px 10px 0px 50px;
+    } */
+    /* .main-content ul li:nth-child(1){
+        position: relative;
+        font-size:30px;
+    }
+    .main-content ul li:nth-child(1) button{
+        height:40px;
+        width:40px;
+        border-radius:50px;
+        background-color:#fff;
+        border: none;
+        box-shadow:0px 5px 15px rgb(0, 0,0,0.06);
+        border-color:rgb(0, 0,0,0.06);
+        position: absolute;
+        right: 0px;
+    }
+    .main-content ul li{
+        margin-top:20px
+       
+    }
+    .main-content ul li img{
+        height:100px;
+        width:100px;
+        border-radius:5px;
+    
+    }
+    .main-content ul li .details{
+        
+        height:100px;
+        width:200px;
+        margin-left:30px;
+    
+    }
+    .main-content ul li .details .title{
+        font-size:20px;
+    
+    }
+    .main-content ul li .number-of-item{
+         
+        height:50px;
+        width:158px;
+        margin-left:20px;
+        margin-top:30px;
+    
+      
+    }
+    .main-content ul li .number-of-item button{
+        height:30px;
+        width: 30px;
+        border-radius: 50px;
+        background-color:#fff;
+        border: none;
+        box-shadow:0px 5px 15px rgb(0, 0,0,0.06);
+        border-color:rgb(0, 0,0,0.06);
+        margin-left:10px;
+    
+    }
+    .main-content ul li .number-of-item .number{
+         
+        border-radius: 50px;
+        text-align:center;
+        line-height:35px;
+        margin-left:10px;
+    }
+    .main-content ul li:nth-child(1) button:hover{
+        background-color: #3577f0;
+        color:#fff;
+    
+    }
+    .sub-total{
+        height:60px;
+        position: relative;
+    }
+    .sub-total .price{
+        position: absolute;
+        right:0px;
+        font-size:30px;
+        color:rgb(58, 51, 51);
+    
+    }
+    .sub-total .title{
+        font-size:30px;
+    } 
+    .btn-vc button{
+    
+       height:60px;
+        width:200px;
+        margin-left:20px;
+        border-radius:7px;
+        outline:none;
+        border:none;
+        color:white;
+        font-size:20px;
+        background-color: #3577f0;
+    } */
      
  
      /* header section */
@@ -194,8 +307,15 @@
      /* footer{
          display:none;
      } */
- 
- 
+    .filter-list{
+        width:35%;
+    }
+    .component{
+        width:39%;
+    }
+    .box-list-all{
+        gap:80px;
+    }
      footer .footer-first ul li img{
         display:none;
     }
@@ -384,8 +504,27 @@
     .banner-section{
         display:none;
      }
-   
-    
+     .contact-pages{
+        height:500px;
+        background-color: red;
+    }
+    .load-more #load-more-btn{
+        margin:20px 0px 0px 200px;
+    }
+    .component{
+        width:60%;  
+         
+    }
+    .filter-list{
+        width:35%;
+    }
+    .box-list-all{
+        gap:20px;
+    }
+    .breadcrum ul li:nth-child(2){
+        font-size:30px;
+        font-weight: bold;
+    }
 /* footer section */
 
 footer{
@@ -731,6 +870,40 @@ footer .footer-last{
     .banner-section{
         display:none;
     }
+    .contact-pages{
+        height:1100px;
+    }
+     
+    .contact-pages .main-box .flex-box{
+        flex-direction: column;
+    }
+    .contact-pages .main-box .flex-box .image-block{
+        width:385px;
+    }
+    .component{
+        display:none;
+         
+    }
+    .load-more #load-more-btn{
+        margin:20px 0px 0px 20px;
+    }
+    .services{
+        display: none;
+    }
+    .breadcrum ul li:nth-child(2){
+        font-size:20px;
+        font-weight: bold;
+    }
+    #filter-price{
+        width:100px;
+    }
+    /* .filter-list{
+        width:35%;
+    }
+    .box-list-all{
+        gap:20px;
+    } */
+   
 
 /* footer section */
 
@@ -805,6 +978,7 @@ footer .footer-last{
         border-radius:4px;
        
     }  
+  
    
 }
 
