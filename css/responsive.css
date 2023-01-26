@@ -2,7 +2,7 @@
     .container{
         margin:1px 20px 0 20px;
         height:auto; 
-        /* background-color: #91b6f9; */
+        
     }   
      h1{
         font-size:30px;
@@ -10,27 +10,53 @@
     .margin-up{
         margin-top:100px;
       }
-    /* h3{
-        display: none;
-    }   */
-/* header-section:start */
+    
     header{
         background-color:#eff4f7;
         height:5rem;
         width:100%;
-    
-        /* z-index:1; */
+     
     }
-footer{
-    display: none;
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+ footer{
+    border-color:rgb(0, 0,0,0.06);
+    background-color:#f7f7f7;
+    width:100%;
+    height:1350px;
+    margin-top:50px;
 }
- 
+footer .footer-first{
+    margin-top:10px;
+}
+footer .footer-first .flex-box{
+    justify-content: space-between;
+    flex-direction:column;
+}
+footer .footer-first ul{
+    width:80%;
+    height:300px;
+    margin-top:10px;
+    font-size:30px;
+}
+footer .footer-first ul li{
+    margin-top:10px;
+    font-size:15px;
+}
+footer .footer-first ul li img{
+    height:270px;
+    width:270px;
+}
+footer .footer-last{
+    display: none;
+} 
 .logo{
     height:5rem;
     width:100px;
-    display:flex;
-    justify-content: center;
-    align-items: center; 
 }
 .logo img{
     height:2rem;
@@ -39,10 +65,8 @@ footer{
 }
 .search-lang{
     height:5rem;
-    margin-left:140px;
+    margin-left:130px;
     width:40%;
-    display:flex;
-    justify-content:space-between;
     /* background-color: red; */  
 }
 .search-lang li{
@@ -59,10 +83,8 @@ footer{
     font-family: 'IBM Plex Mono', monospace;
     font-family: 'Signika Negative', sans-serif;
     font-family: 'Space Grotesk', sans-serif;
-   
 }
 .search-parent{
-    position: relative;
     display: none;
 }
 #search-box{
@@ -84,9 +106,6 @@ footer{
     top:35px;
     left:20px;
     display:none;
-     
- 
-     
 }
  
 /* header:end */
@@ -101,13 +120,7 @@ nav{
     height:3.5rem;
     width:170px;
     line-height:50px;
-    padding:5px;
-    background-color:#3577f0;
-    line-height:50px;
-    font-size:18px;
-    color:#fff;
-    font-weight:lighter;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
 }
 nav .nav-list{
     display: none;
@@ -116,8 +129,8 @@ nav .nav-list{
     display:flex;
     justify-content:center;
     width:20%;
-    position:absolute;
-    right:20px;
+    /* position:absolute; */
+    right:20px; 
 }
 .setting li{
     list-style:none;
@@ -196,12 +209,6 @@ nav .nav-list{
      
 
 }
-/* .most-sell-product2{
-    display: none;    
-} */
-/* .feature-section{
-    display: none;
-} */
 .feature-section .flex-box{
     flex-direction:column;
 
@@ -243,18 +250,13 @@ nav .nav-list{
     height:400px;
     
 }
- 
-/* 
-.Best-Seller-section{
-    display: none;
-} */
 .list-of-mostsell .box-list{
      display: none;
      width:100%;
     
   }
   .special-offer-section .main-box{
-    height:340px;
+    height:420px;
      
   }
   .list-of-mostsell .box-list:nth-child(1){
@@ -263,50 +265,157 @@ nav .nav-list{
   }
   .list-of-mostsell .box-list:nth-child(1) li img{
     height:320px;
-    margin-left:10px;
+    margin-left:5px;
 
   }
   .special-offer-section .main-box .image-part img{
-    height:200px;
-    width:130px;
+    height:300px;
+    width:170px;
     top:20px;
   }
   .special-offer-section .main-box .text-part{
     height:500px;
     width:60%;
-    /* background-color: blue; */
   }
   .special-offer-section .main-box .text-part .group{
     height:400px;
     width:60%;
     margin-left:30px;
-    margin-top:15px;
+    margin-top:10px;
     display:flex;
     flex-direction:column;
     justify-content:space-around;
-    /* background-color: red; */
-
-  }
-  .group li{
-    list-style:none;
   }
   .group li:nth-child(2){
-    font-size:30px;
-    font-weight: bold;
+    font-size:25px;
+  }
+  .time-remain{
+    height:40px;
+    width:40px;
+    font-size:10px;
   }
   .special-offer-section .main-box .image-part{
     height:500px;
     width:50%;
   }
-/* .special-offer-section{
+ 
+.cart-list{
+    height:400px;
+    width:100%;
     display: none;
-} */
-.Explore-product{
-    display:none;
+}
+.cart-list:nth-child(1){
+    display:block;
+}
+.cart-list:nth-child(2){
+    display:block;
+}
+.cart-list img{
+    width:95%;
+}
+.list-of-product button{
+    height:60px;
+    width:250px;
+    color: #797e83;
+    border-radius:3px;
+    outline:none;
+    border:none;
+    font-size:20px;
+    background-color: #e2e3e7;
+    margin-left:60px;
+    box-shadow:0px 5px 15px rgb(0, 0,0,0.06);
 }
 .banner-section{
-    display: none;
+    display:none;
 }
+ 
+
+}
+
+@media only screen and (max-width:375px) {
+    header{
+        width:100%;
+    }
+    nav{
+        width:100%;
+    }
+    /* .logo img{
+        height:2rem;
+        width:10px;
+        margin-left:10px;
+    } */
+    .logo{
+        height:5rem;
+        width:50px;
+        background-color: #3577f0;
+
+    }
+    .search-lang{
+        height:5rem;
+        margin-left:5px;
+        width:50%;
+
+    }
+    .container{
+        margin:1px 10px 0 10px;
+        height:auto; 
+        
+    }
+    .search-lang li select{
+        width:50px;
+        height:30px;
+        border-radius:4px;
+       
+    }  
+   
+}
+
+@media only screen and (max-width:768px) {
+
+    search-lang{
+        /* background-color: aquamarine; */
+        height:5rem;
+        margin-left:50px;
+        width:60%;
+        display:flex;
+        justify-content:space-between;
+        
+    }
+    .search-lang li{
+        list-style:none;
+        line-height:80px;
+    }
+    .search-lang li select{
+        width:70px;
+        height:35px;
+        border-radius:4px;
+        outline:none;
+        border-color:rgb(0, 0,0,0.06);
+        box-shadow:0px 5px 15px rgb(0, 0,0,0.06);
+        font-family: 'IBM Plex Mono', monospace;
+        font-family: 'Signika Negative', sans-serif;
+        font-family: 'Space Grotesk', sans-serif;
+    }
+    .search-parent{
+        position: relative;
+    }
+    #search-box{
+        outline:none;
+        height:38px;
+        width:800px;
+        border-radius:0px 5px;
+        font-family: 'IBM Plex Mono', monospace;
+        font-family: 'Signika Negative', sans-serif;
+        font-family: 'Space Grotesk', sans-serif;
+        box-shadow:0px 5px 15px rgb(0, 0,0,0.06);
+        border-color:rgb(0, 0,0,0.06);
+        text-indent:50px;
+         
+    }
+
+
+    
 
 
 }
+ 
