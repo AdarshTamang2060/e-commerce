@@ -1,36 +1,79 @@
- @media only screen and (max-width:1490px) {
+ @media only screen and (max-width:768px) {
+   /* utilities class */
     .container{
-        margin:1px 100px 0 100px;
-        height:auto;
-        /* background-color: #91b6f9; */
+        margin:1px 20px 0 20px;
+        height:auto;   
+        background-color: #3577f0;
+    }   
+     h1{
+        font-size:30px;
+    }
+    .margin-up{
+        margin-top:100px;
+      }
+    
+    header{
+        background-color:#eff4f7;
+        height:5rem;
+        width:100%;
      
     }
-    header{
-        width:100%;
-        
-    }
-    .logo{
-        height:5rem;
-        width:255px;
-        
-    }
-    .search-lang{
-        /* background-color: aquamarine; */
-        height:5rem;
-       
-        width:80%;
-   
-        
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
     
-    nav{
-        width:100%;
+
+    /* header section */
+
+  
+    menu{
+        display: none;
+       }
+    .text-cata{
+            width:25%;
+            background-color: red;
+            height:3rem;
+            border-radius:4px;
+            margin-top:10px;
+            margin-bottom:10px;
+            font-size:15px;
+
+    }
+    search-lang{
+        /* background-color: aquamarine; */
+        height:5rem;
+        margin-left:50px;
+        width:60%;
+        display:flex;
+        justify-content:space-between;
+        display:none;
         
+    }
+    .search-lang li{
+        list-style:none;
+        line-height:80px;
+        display:none;
+    }
+    .search-lang li select{
+        width:70px;
+        height:35px;
+        border-radius:4px;
+        outline:none;
+        border-color:rgb(0, 0,0,0.06);
+        box-shadow:0px 5px 15px rgb(0, 0,0,0.06);
+        font-family: 'IBM Plex Mono', monospace;
+        font-family: 'Signika Negative', sans-serif;
+        font-family: 'Space Grotesk', sans-serif;
+    }
+    .search-parent{
+        position: relative;
     }
     #search-box{
         outline:none;
         height:38px;
-        width:690px;
+        width:500px;
         border-radius:0px 5px;
         font-family: 'IBM Plex Mono', monospace;
         font-family: 'Signika Negative', sans-serif;
@@ -38,308 +81,61 @@
         box-shadow:0px 5px 15px rgb(0, 0,0,0.06);
         border-color:rgb(0, 0,0,0.06);
         text-indent:50px;
-         
-    }
-    .most-sell-product1{
-        width:60%;
-         
-         
-    }
-    .feature-box{
-        height:200px;
-        width:200px;
-    }
-    .list-of-arrivlas .box-list{
-        height:340px;
-        width:260px;
-        
-        
-    
-         
-    }
-    .list-of-mostsell .box-list{
-        height:250px;
-        width:250px;
-      }
-
-
-}
-@media only screen and (max-width:1390px) {
-    .container{
-        margin:1px 90px 0 90px;
-        height:auto;
-        /* background-color: #91b6f9; */
-     
-    }
-    header{
-        width:100%;
-      
-    }
-    .logo{
-        height:5rem;
-        width:255px;
-        display:flex;
-        justify-content: center;
-        align-items: center;
-       
-    }
-    .search-lang{
-        /* background-color: aquamarine; */
-        height:5rem;
-        margin-left:100px;
-        width:70%;    
-    }
-
-    nav{
-        width:100%;
-       
-    }
-    #search-box{
-        
-        height:38px;
-        width:600px;
-         
+        display: none;
          
     }
 
-
-
-}
-@media only screen and (max-width:1345px) {
-    .container{
-        margin:1px 80px 0 80px;
-        height:auto;
-        /* background-color: #91b6f9; */
-     
+    /* navigation section */
+    .nav-list{
+        display: none; 
     }
-}
-@media only screen and (max-width:1260px) {
-    .container{
-        margin:1px 100px 0 100px;
-        height:auto;
-        /* background-color: #91b6f9; */
-     
-    }
-    menu{
-        display:none;
-    }
-    #search-box{
-        
-        height:38px;
-        width:500px;
-         
-         
-    }
-    .logo{
-        height:5rem;
-        width:200px;
-        
-    }
-    .search-lang{
-        
-        height:5rem;
-        margin-left:80px;
-        width:80%;
-         
-     
-    }
-    .text-cata{
-        height:3.5rem;
-        width:200px;
-        
-    
-    }
-    .most-sell-product1{
-        width:70%;
-        margin-left:0px;
-        
-         
-         
-    }
-    .most-sell-product2{
-        width:35%;
-         
-         
-    }
-    .feature-box:nth-child(1){
-        display:none;
-    }
-    .list-of-arrivlas .box-list:nth-child(1){
-        display:none;    
-    }
-    .list-of-mostsell .box-list:nth-child(1){
-        display:none;
-    }
-}
-@media only screen and (max-width:1100px) {
-    .container{
-        margin:1px 50px 0 50px;
-    }
-    #search-box{
-        
-        height:38px;
-        width:400px;
-         
-         
-    }
-    .search-lang{
-        /* background-color: aquamarine; */
-        height:5rem;
-        margin-left:80px;
-        width:60%;
-         
-        /* background-color: aquamarine;  */
-    }
-    menu{
-        display:none;
-    }
-    
-    .logo{
-        height:5rem;
-        width:200px;
-        
-    }
-   
-    .text-cata{
-        height:3.5rem;
-        width:200px;
-        
-    
-    }
-    .most-sell-product1{
-        width:70%;
-        margin-left:0px;
-        
-         
-         
-    }
-    .most-sell-product2{
-        width:35%;
-         
-         
-    }
-    .feature-box:nth-child(1){
-        display:none;
-    }
-    .list-of-arrivlas .box-list:nth-child(1){
-        display:none;    
-    }
-    .list-of-mostsell .box-list:nth-child(1){
-        display:none;
-    }
-    footer{
-        font-size:20px;
-
-    }
-    footer .footer-first{
-        height:400px;
+    .setting{
         background-color: red;
-    }
-    footer .footer-first .flex-box{
-        justify-content: space-between;
-    }
-    footer .footer-first ul{
         width:15%;
-        height:300px;
+        right:0px;
+         
+    
     }
-    footer .footer-first ul li{
+    .setting li{
         list-style:none;
-        margin-top:15px;
-        font-size:15px;
-    
-    }
-    footer .footer-first ul li img{
-       display:none;
-    }
-    footer .footer-last .first{
- 
-        width:15%;
-        height:70px;
-        line-height:60px;
-    }
-    footer .footer-last .second{
-      
-        width:60%;
-        text-align:center;
-        line-height:60px;
-        height:70px;
-    
-    }
-    footer .footer-last .third{
-       
-        width:20%;
-        line-height:60px;
+        line-height:50px;
+        margin-left:20px;
         
+    
     }
-}
-@media only screen and (max-width:1024px) {
-    .container{
-        margin:1px 50px 0 50px;
-        height:auto;
-        /* background-color: #91b6f9; */
+
+    /* main section */
      
-    }
-    menu{
+    /* main{
+        display:none;
+    } */
+    .hero-section{
         display:none;
     }
-    header{
-        width:100%;
+    .feature-section{
+        display:none;
     }
-    nav{
-        /* background-color: red; */
-        width:100%;
+    .New-Arrivals-section{
+        display: none;
     }
-    .nav-design-box{
-        /* background-color: blue; */
-        width:100%;
+    .Best-Seller-section{
+        display: none;
     }
-    #search-box{
-        
-        height:38px;
-        width:450px;
-         
-         
+    .special-offer-section{
+        display:none;
     }
-    .logo{
-        height:5rem;
-        width:200px;
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        /* background-color: aqua; */
+    .Explore-product{
+        display: none;
     }
-    .search-lang{
-        /* background-color: aquamarine; */
-        height:5rem;
-        margin-left:80px;
-        width:670%;
-         
-        /* background-color: aquamarine;  */
+    .banner-section{
+        display:none;
+     }
+    footer{
+        display:none;
     }
-    .text-cata{
-        height:3.5rem;
-        width:200px;
-        
+
+
     
-    }
-    .most-sell-product1{
-        width:70%;
-        margin-left:0px;
-        
-         
-         
-    }
-    .most-sell-product2{
-        width:35%;    
-    }
-    .feature-box:nth-child(1){
-        display:none;
-    }
-    .list-of-arrivlas .box-list:nth-child(1){
-        display:none;    
-    }
-    .list-of-mostsell .box-list:nth-child(1){
-        display:none;
-    }
+
+
 }
- 

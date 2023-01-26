@@ -435,7 +435,6 @@ footer .footer-first ul li:nth-child(2){
 
 /* hero-section:start */
 .catagories-list{
-    background-color:red;
     width:256px;
     height:420px;   
 }
@@ -560,7 +559,9 @@ footer .footer-first ul li:nth-child(2){
     height:auto;
 }
 .feature-section .flex-box{
-    justify-content:space-between;
+    /* justify-content: space-between; */
+    gap:30px;
+    flex-wrap: wrap;
 }
 .feature-box{
     height:220px;
@@ -625,7 +626,8 @@ footer .footer-first ul li:nth-child(2){
     width:100%;
 }
 .list-of-arrivlas .flex-box{
-    justify-content:space-between;
+    gap:30px;
+    flex-wrap: wrap;
 }
 .list-of-arrivlas .box-list{
 
@@ -689,7 +691,9 @@ footer .footer-first ul li:nth-child(2){
   
   }
   .list-of-mostsell .flex-box{
-    justify-content:space-between;
+    gap:30px;
+    flex-wrap: wrap;
+
 }
   .list-of-mostsell .box-list{
     background-color:#f7f7f7;
@@ -837,7 +841,7 @@ footer .footer-first ul li:nth-child(2){
     }
     .list-of-product .flex-box{
         flex-wrap: wrap;
-        justify-content:space-between;
+        gap:30px;
     }
     .cart-list{
         background-color:#f7f7f7;
