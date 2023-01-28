@@ -24,3 +24,11 @@ document.querySelector('#close-cart').onclick=()=>{
   cart_box.style.right="-110%";
 }
  
+let small_menu=document.querySelector(".small-menu-section");
+document.querySelector(".text-cata").onclick=()=>{
+  small_menu.style.display="block";
+   
+}
+document.querySelector("#close-small-menu").onclick=()=>{
+  small_menu.style.display="none";
+}

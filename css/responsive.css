@@ -87,108 +87,16 @@
      menu{
          display:none;
      }
-     /* .main-box-cart{
-         right:0%;
-     }
-     .main-content{
-        height:755px;
-        width:89%;
-        margin:50px 10px 0px 50px;
-    } */
-    /* .main-content ul li:nth-child(1){
-        position: relative;
-        font-size:30px;
+     
+     .main-box-cart{
+        width:60%;
     }
-    .main-content ul li:nth-child(1) button{
-        height:40px;
-        width:40px;
-        border-radius:50px;
-        background-color:#fff;
-        border: none;
-        box-shadow:0px 5px 15px rgb(0, 0,0,0.06);
-        border-color:rgb(0, 0,0,0.06);
-        position: absolute;
-        right: 0px;
+    .main-box-menu{
+        width:25%;
+
     }
-    .main-content ul li{
-        margin-top:20px
-       
-    }
-    .main-content ul li img{
-        height:100px;
-        width:100px;
-        border-radius:5px;
-    
-    }
-    .main-content ul li .details{
-        
-        height:100px;
-        width:200px;
-        margin-left:30px;
-    
-    }
-    .main-content ul li .details .title{
-        font-size:20px;
-    
-    }
-    .main-content ul li .number-of-item{
-         
-        height:50px;
-        width:158px;
-        margin-left:20px;
-        margin-top:30px;
-    
-      
-    }
-    .main-content ul li .number-of-item button{
-        height:30px;
-        width: 30px;
-        border-radius: 50px;
-        background-color:#fff;
-        border: none;
-        box-shadow:0px 5px 15px rgb(0, 0,0,0.06);
-        border-color:rgb(0, 0,0,0.06);
-        margin-left:10px;
-    
-    }
-    .main-content ul li .number-of-item .number{
-         
-        border-radius: 50px;
-        text-align:center;
-        line-height:35px;
-        margin-left:10px;
-    }
-    .main-content ul li:nth-child(1) button:hover{
-        background-color: #3577f0;
-        color:#fff;
-    
-    }
-    .sub-total{
-        height:60px;
-        position: relative;
-    }
-    .sub-total .price{
-        position: absolute;
-        right:0px;
-        font-size:30px;
-        color:rgb(58, 51, 51);
-    
-    }
-    .sub-total .title{
-        font-size:30px;
-    } 
-    .btn-vc button{
-    
-       height:60px;
-        width:200px;
-        margin-left:20px;
-        border-radius:7px;
-        outline:none;
-        border:none;
-        color:white;
-        font-size:20px;
-        background-color: #3577f0;
-    } */
+
+     
      
  
      /* header section */
@@ -248,15 +156,7 @@
      
      }
  
-     /* main section */
-      
-     /* main{
-         display:none;
-     } */
-     /* .hero-section{
-         display:none;
-     } */
-     
+    
   
       
      .product1-logo{
@@ -316,6 +216,15 @@
     .box-list-all{
         gap:80px;
     }
+    .contact-form .first-row input{
+        width:200px;
+
+    }
+    .second-row textarea{
+
+        width:100%;
+
+    }
      footer .footer-first ul li img{
         display:none;
     }
@@ -365,6 +274,10 @@
             font-size:15px;
 
     }
+    .main-box-menu{
+        width:35%;
+
+    }
     search-lang{
         /* background-color: aquamarine; */
         height:5rem;
@@ -408,7 +321,18 @@
         display: none;
          
     }
+    .main-box-cart{
+        width:100%;
+    }
+    .main-content{
+        width:80%;
 
+    }
+    .main-content ul li .details .title{
+        font-size:15px;
+    
+    }
+    
     /* navigation section */
     .nav-list{
         display: none; 
@@ -506,7 +430,6 @@
      }
      .contact-pages{
         height:500px;
-        background-color: red;
     }
     .load-more #load-more-btn{
         margin:20px 0px 0px 200px;
@@ -525,6 +448,36 @@
         font-size:30px;
         font-weight: bold;
     }
+    .contact-pages{
+        height:700px;
+         
+        
+    }
+
+
+     .text-contact{
+        display:none;
+
+    }
+    .contact-form {
+        width:100%;
+    }
+    .contact-form  .first-row {
+        height:300px;
+        width:100%;
+       
+    }
+    .contact-form .flex-box{
+      flex-direction: column;
+
+    }
+    
+    .contact-form .first-row input{
+        width:100%;
+    }
+    /* .first-row .flex-box input{
+        width:800px;
+    } */
 /* footer section */
 
 footer{
@@ -582,7 +535,10 @@ footer .footer-last{
         margin-top:100px;
       }
 
+      .main-box-menu{
+        width:70%;
 
+    }
     /* header section */
 
 
@@ -978,7 +934,7 @@ footer .footer-last{
         border-radius:4px;
        
     }  
-  
+   
    
 }
 
