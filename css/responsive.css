@@ -20,7 +20,7 @@
         flex-wrap: wrap;
     
     }
-      .list-of-mostsell .box-list{
+    .list-of-mostsell .box-list{
         background-color:#f7f7f7;
         box-shadow:0px 5px 5px rgb(0, 0,0,0.06);
         height:300px;
@@ -28,8 +28,8 @@
         border-radius:7px;
         position: relative;
         
-      }
-      .list-of-product .flex-box{
+    }
+    .list-of-product .flex-box{
         flex-wrap: wrap;
         gap:20px;
     }
@@ -44,22 +44,11 @@
     .filter-list{
         width:25%;
     }
-
-    /* .all-product-list-page .product-list-main-box .box-list-all{
-        gap:27px;
-    } */
-
-    
-     
-   
-  
-   
+ 
    
 }
  
 @media only screen and (max-width:1024px) {
-
- 
     /* utilities class */
      .container{
          margin:1px 20px 0 20px;
@@ -95,10 +84,6 @@
         width:25%;
 
     }
-
-     
-     
- 
      /* header section */
   
      search-lang{
@@ -155,22 +140,13 @@
          
      
      }
- 
-    
-  
-      
      .product1-logo{
          height:300px;
          margin-top:50px;
          margin-left:15px;
        }
  
- 
-     /* .feature-section{
-         display:none;
-     } */
      .feature-section .flex-box{
-         /* justify-content: space-between; */
          flex-wrap: wrap;
          gap:20px;
 
@@ -179,22 +155,14 @@
         display:none;
      }
 
-      
-     /* .New-Arrivals-section{
-         display: none;
-     } */
+  
      .New-Arrivals-section .list-of-arrivlas .box-list:nth-child(1){
         display:none;
      }
      .Best-Seller-section .list-of-mostsell .box-list:nth-child(1){
         display: none;
      }
-     /* .Best-Seller-section{
-         display: none;
-     } */
-     /* .special-offer-section{
-         display:none;
-     } */
+    
      .list-of-product{
          height:1500px;
         }
@@ -204,9 +172,7 @@
      .banner-section{
          display:none;
       }
-     /* footer{
-         display:none;
-     } */
+      
     .filter-list{
         width:35%;
     }
@@ -279,7 +245,7 @@
 
     }
     search-lang{
-        /* background-color: aquamarine; */
+        
         height:5rem;
         margin-left:50px;
         width:60%;
@@ -475,10 +441,7 @@
     .contact-form .first-row input{
         width:100%;
     }
-    /* .first-row .flex-box input{
-        width:800px;
-    } */
-/* footer section */
+ 
 
 footer{
     border-color:rgb(0, 0,0,0.06);
@@ -853,12 +816,7 @@ footer .footer-last{
     #filter-price{
         width:100px;
     }
-    /* .filter-list{
-        width:35%;
-    }
-    .box-list-all{
-        gap:20px;
-    } */
+  
    
 
 /* footer section */
@@ -906,11 +864,7 @@ footer .footer-last{
     nav{
         width:100%;
     }
-    /* .logo img{
-        height:2rem;
-        width:10px;
-        margin-left:10px;
-    } */
+   
     .logo{
         height:5rem;
         width:50px;
