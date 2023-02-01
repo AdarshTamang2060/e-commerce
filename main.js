@@ -32,3 +32,5 @@ document.querySelector(".text-cata").onclick=()=>{
 document.querySelector("#close-small-menu").onclick=()=>{
   small_menu.style.display="none";
 }
+
+ 
