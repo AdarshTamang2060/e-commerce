@@ -1,0 +1,323 @@
+*{
+    margin:0px;
+    padding:0PX;
+}
+.arrow{
+    position: absolute;
+    right:20px;
+
+}
+hr{
+    margin-top:10px;
+}
+body{
+    background-color:#e9e9eb;
+}
+header{
+    background-color: white;
+    box-shadow:20px 0px 0px;
+    height:75px;
+    position:fixed;
+    left:18%;
+    display:flex;
+    width:82%;
+
+
+}
+
+header li{
+    list-style: none;
+    margin-left:20px;
+}
+ .notification{
+    margin-left:550px;
+    margin-top:25px;
+ }
+ .message{
+    margin-top:25px;
+    font-family: cursive;
+ }
+  
+
+header li input{
+    height:40px;
+    width:350px;
+    border-radius:3px;
+    border-color:white;
+    outline:none;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    box-shadow:0px 5px 15px rgb(0, 0,0,0.06);
+    border-color:rgb(0, 0,0,0.06);
+    text-indent:50px;
+    
+
+}
+.logo{
+    height:50px;
+    width:50px;
+    border-radius:30px;
+    margin-left:20px;
+    margin-top:10px;
+    
+}
+aside{
+    width:18%;
+    height:750px;
+    position:fixed;
+    background-color:rgb(78, 78, 226);
+}
+main{
+    position:fixed;
+    background-color: rgb(244, 244, 244);
+    height:700px;
+    top:79px;
+    width:82%;
+    left:18%;
+    overflow:scroll;
+}
+footer{
+   background-color:white;
+ 
+   width:82%;
+   height:70px;
+   position:absolute;
+   bottom:0px;
+   left:18%;
+}
+
+.icon{
+    background-color: rgb(94, 94, 236);
+    border-radius:4px;
+    height:40px;
+    width:40px;
+    font-size:20px;
+    margin-top:10px;
+    box-shadow:0px 5px 15px rgb(0, 0,0,0.06);
+    border-color:rgb(0, 0,0,0.06);
+    outline:none;
+    border:none;
+
+    
+
+}
+.admin-text{
+    margin-left:50px;
+    margin-top:20px;
+    color:white;
+    
+}
+ 
+.aside-text{
+     margin-top:20px;
+    margin-left:20px;
+    color:white;
+    font-weight: bold;
+
+
+}
+.dashboard{
+  font-size:20px;
+}
+.interface{
+    margin-top:13px;
+    margin-left:10px;
+    font-size:20px;
+    font-weight: bold;
+    color:rgb(151, 146, 146);
+}
+.component{
+  margin-top:30px;
+  margin-left:20px;
+}
+.com{
+    margin-left:20px;
+    color: rgb(196, 192, 192);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.arrow{
+    margin-left:100px;
+    color: rgb(168, 168, 168);
+}
+.arrow2{
+    margin-left:135px;
+    margin-top:30px;
+    color: rgb(191, 187, 187);
+}
+#generate{
+    margin-left:870px;
+    margin-top:25px;
+    background-color:rgb(73, 73, 195);
+    height:35px;
+    width:170px;
+    border-radius:3px;
+    border-color:blue;
+    box-shadow:0px 0px 2px;
+    color:white;
+    font-size:15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.box-main{
+    
+    margin:15px;
+    height:150px;
+    width:82%;
+    display: flex;
+}
+.box-main .box-child-1{
+   
+    background-color:rgb(40, 90, 206);
+    height:110px;
+    width:285px;
+    border-radius:7px;
+    margin:10px;
+     
+    box-shadow:0px 0px 0.3px black;
+
+}
+.box-child-2{
+   
+    background-color:rgb(5, 144, 60);
+    height:110px;
+    width:285px;
+    border-radius:7px;
+    margin:10px;
+     
+    box-shadow:0px 0px 0.3px black;
+
+}
+.box-child-3{
+   
+    background-color:rgb(28, 150, 198);
+    height:110px;
+    width:285px;
+    border-radius:7px;
+    margin:10px;
+     
+    box-shadow:0px 0px 0.3px black;
+
+}
+.box-child-4{
+   
+    background-color:rgb(225, 237, 10);
+    height:110px;
+    width:285px;
+    border-radius:7px;
+    margin:10px;
+     
+    box-shadow:0px 0px 0.3px black;
+
+}
+.box-main .box-child-1 .box{
+    height:110px;
+    width:285px;
+    background-color: white;
+    margin-left:6px;
+}
+.box-main .box-child-2 .box{
+    height:110px;
+    width:285px;
+    background-color: white;
+    margin-left:6px;
+}
+ 
+.box-main .box-child-3 .box{
+    height:110px;
+    width:285px;
+    background-color: white;
+    margin-left:6px;
+}
+ 
+.box-main .box-child-4 .box{
+    height:110px;
+    width:285px;
+    background-color: white;
+    margin-left:6px;
+}
+.box-main .box-child-1 .box P{
+    padding:30px;
+    
+    font-size:14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(73, 73, 214);
+  
+}
+.box-main .box-child-1 .box .dollar{
+    font-size:20px;
+    color: rgb(84, 81, 81);
+    font-weight:bold;
+}
+.box-main .box-child-2 .box P{
+    padding:30px;
+    
+    font-size:14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(18, 216, 78);
+  
+}
+.box-main .box-child-2 .box .dollar{
+    font-size:20px;
+    color: rgb(84, 81, 81);
+    font-weight:bold;
+}
+.box-main .box-child-3 .box P{
+    padding:30px;
+    
+    font-size:14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(16, 182, 168);
+  
+}
+.box-main .box-child-3 .box .dollar{
+    font-size:20px;
+    color: rgb(84, 81, 81);
+    font-weight:bold;
+}
+ 
+.box-main .box-child-4 .box P{
+    padding:30px;
+    
+    font-size:14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(238, 246, 7);
+  
+}
+.box-main .box-child-4 .box .dollar{
+    font-size:20px;
+    color: rgb(84, 81, 81);
+    font-weight:bold;
+}
+.second{
+ 
+    height:450px;
+    display:flex;
+
+}
+.second-1{
+    background-color:rgb(224, 226, 227);
+    margin-left:35px;
+    height:350px;
+    width:700px;
+    border-radius:7px;
+     
+}
+.second-2{
+    background-color: rgb(224, 226, 227);
+    margin-left:40px;
+    height:350px;
+    width:420px;
+    border-radius:7px;
+    
+    
+
+}
+.h1-txt{
+    color:blue;
+    background-color: rgb(204, 207, 211);
+    font-size:18px;
+    padding:20px;
+    height:30px;
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

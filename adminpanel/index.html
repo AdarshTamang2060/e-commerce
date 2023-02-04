@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>E-Trade Backend</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <!--===========- header start ===========--->
+
+    <header>
+
+        <li><input type="search" placeholder="search for..."><button class="icon"><i class="fa-solid fa-magnifying-glass" style="color:white;"></i></button></li>
+        <li class="notification"><i class="fa-solid fa-bell"></i></li>
+        <li class="message"><i class="fa-solid fa-message"></i></li>
+        <li  class="message">Admin</li>
+        <li><img class="logo" src="images/profile-icon.jpg"></li>
+        
+    </header>
+      <!--===========-header end===========--->
+      <!--aside start-->
+      <aside>
+      <h1 class="admin-text"> <i class="fa-solid fa-face-smile" style="font-size: 40px;"></i>&nbsp;E-Trade</h1>
+<br><hr>
+ <div class="aside-text"><i class="fa-solid fa-gauge dashboard"></i>&nbsp;&nbsp;Dashboard</div>
+      <hr>
+      <div class="interface">ADMIN</div>
+      <div class="component"><i class="fa-solid fa-folder" style="color: rgb(203, 196, 196);"></i><span class="com">Add</span>  <i class="fa-sharp fa-solid fa-angles-right arrow"></i></div>
+      <div class="component"><i class="fa-solid fa-chart-line" style="color: rgb(194, 190, 190);"></i><span class="com">Display</span> <i class="fa-sharp fa-solid fa-angles-right arrow"></i></div>
+      <hr>
+      <div class="interface">Catagories</div>
+      <div class="component"><i class="fa-solid fa-gear" style="color: rgb(213, 209, 209);"></i><span class="com">Add</span> <i class="fa-sharp fa-solid fa-angles-right arrow"></i></div>
+      <div class="component"><i class="fa-solid fa-wrench" style="color: rgb(181, 181, 181);"></i><span class="com">Display</span><i class="fa-sharp fa-solid fa-angles-right arrow"></i> </div>
+      <hr>
+      <div class="interface">Item</div>
+      <div class="component"><i class="fa-solid fa-folder" style="color: rgb(203, 196, 196);"></i><span class="com">Add</span>  <i class="fa-sharp fa-solid fa-angles-right arrow"></i></div>
+      <div class="component"><i class="fa-solid fa-chart-line" style="color: rgb(194, 190, 190);"></i><span class="com">Display</span> <i class="fa-sharp fa-solid fa-angles-right arrow"></i></div>
+      <hr>
+      <div class="interface">Message</div>
+      <div class="component"><i class="fa-solid fa-folder" style="color: rgb(203, 196, 196);"></i><span class="com">Send</span>  <i class="fa-sharp fa-solid fa-angles-right arrow"></i></div>
+      <div class="component"><i class="fa-solid fa-chart-line" style="color: rgb(194, 190, 190);"></i><span class="com">Display</span> <i class="fa-sharp fa-solid fa-angles-right arrow"></i></div>
+      
+    </aside>
+      <!-- ==========aside end===========-->
+
+      <!--===========-main start===========--->
+      <main>
+        <div class="contan-1">
+        <span style="margin-left:20px;margin-top:20px;font-family:monospace; font-size:30px; font-weight: lighter;color: rgb(103, 104, 105);">Dashboard</span>
+        
+        <button id="generate" type="submit" onclick="window.open('figma.fig')"><i class="fa-sharp fa-solid fa-download" style="color: rgb(190, 190, 190);"></i>&nbsp;
+            &nbsp;Generate Report</button>
+        </div>
+        <div class="box-main">
+            <div class="box-child-1"><div class="box"><p>EARNING(MONTHLY)<br><span class="dollar">$40,000<i class="fa-solid fa-calendar" style="margin-left:110px;font-size:30px;color: rgb(193, 189, 189);"></i></span></p> </div></div>
+            <div class="box-child-2"><div class="box"><p>EARNING(ANNUALY)<br><span class="dollar">$2,15,000 <i class="fa-solid fa-dollar-sign" style="margin-left:100px;font-size:30px;color: rgb(193, 189, 189);"></i></span></p> </div></div>
+            <div class="box-child-3"><div class="box"><p>Profit<br><span class="dollar">50%<svg style="margin-left:150px;" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-clipboard-check" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+                <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+                <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+              </svg></span></p></div></div>
+            <div class="box-child-4"><div class="box"><p>Message<br><span class="dollar">18 <svg style="margin-left:150px;"xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chat-left-fill" viewBox="0 0 16 16">
+                <path d="M2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+              </svg></span></p></div></div>
+
+        </div>
+        <div class="second">
+
+          <div class="second-1">
+            <h1 class="h1-txt">EARNING OVERVIEWS</h1>
+          </div>
+          <div class="second-2">
+            <h1 class="h1-txt">REVENUE SOURCE</h1>
+          </div>
+
+        </div>
+      </main>
+      <!--===========-main end===========--->
+      <!--===========-footer start===========--->
+
+      <footer>
+
+      </footer>
+      <!--===========-footer end===========- -->    
+    
+
+     
+</body>
+</html>
